@@ -13,9 +13,6 @@
 
 ---
 
-## 🌟 HERO BANNER — THE STORY
-
-> **“This project was built when most people sleep. At 3:41 AM, errors were teaching lessons.”**
 
 This README is not documentation only — it is **proof of grind**.
 
