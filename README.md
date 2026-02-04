@@ -297,19 +297,8 @@ docker logs flask-app
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=120&section=header&text=Why%20This%20Is%20Resume%20Gold&fontSize=28" />
 </p>
 
-## 💼 Why This Project Is Resume Gold 🏆
+## 🔗 Links
+- GitHub: https://github.com/arkantandel
+- LinkedIn: https://www.linkedin.com/in/arkantandel
 
-✔ Real production architecture
-✔ Hands-on Ansible roles
-✔ Docker in real usage
-✔ SSH, Linux, automation mastery
-✔ Interview-proof explanations
-
----
-
-<p align="center">⭐ Star this repo if it helped you grow ⭐</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" />
-</p>
 
