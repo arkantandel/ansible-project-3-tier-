@@ -689,25 +689,11 @@ docker rm -f flask-app
 
 ---
 
-<div align="center">
-
-
-
-</div>
-
-<br/>
-
-
----
-
-<div align="center">
-
-
-</div>
 
 <br/>
 
 ```
+
 ---
 
 <div align="center">
