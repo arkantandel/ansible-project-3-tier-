@@ -586,13 +586,7 @@ SHOW TABLES;
 
 ---
 
-<div align="center">
 
-## ❌ Common Errors & Fixes (Real-Life)
-
-</div>
-
-<br/>
 
 ### 🔴 E325: Vim Swap File Error
 ```
