@@ -586,7 +586,13 @@ SHOW TABLES;
 
 ---
 
+<div align="center">
 
+## ❌ Common Errors & Fixes (Real-Life)
+
+</div>
+
+<br/>
 
 ### 🔴 E325: Vim Swap File Error
 ```
@@ -683,9 +689,98 @@ docker rm -f flask-app
 
 ---
 
+<div align="center">
+
+## 🎯 Interview Q&A
+
+</div>
 
 <br/>
 
+**Q1: What is 3-Tier Architecture?**
+```
+3-Tier separates an application into 3 logical layers:
+  Layer 1 → Presentation (Web/Nginx) — User-facing
+  Layer 2 → Application (Docker/Flask) — Business logic
+  Layer 3 → Data (MySQL) — Data persistence
+
+Benefits: Scalability, Security, Maintainability
+```
+
+**Q2: Why use Ansible for this?**
+```
+Ansible provides Infrastructure as Code (IaC):
+  → Idempotent: Run playbooks multiple times safely
+  → Agentless: No software needed on target servers
+  → YAML-based: Human-readable configuration
+  → Roles: Reusable, modular automation
+```
+
+**Q3: What is an Ansible Role?**
+```
+A Role is a standardized way to organize playbook content.
+Structure:
+  roles/
+    web/
+      tasks/      ← What to do
+      handlers/   ← Triggered actions (e.g., restart)
+      templates/  ← Jinja2 config templates
+      vars/       ← Role variables
+      defaults/   ← Default variable values
+```
+
+**Q4: What is the difference between import_playbook and include_playbook?**
+```
+import_playbook  → Static: parsed at startup, always runs
+include_playbook → Dynamic: parsed at runtime, can be conditional
+```
+
+**Q5: How does Nginx act as a Reverse Proxy here?**
+```
+User → Nginx (Port 80, Public IP)
+Nginx → Forwards to Flask App (Port 5000, Private IP)
+
+Benefits:
+  → Hides backend servers from internet
+  → SSL termination at Nginx
+  → Load balancing across multiple app servers
+```
+
+**Q6: Why use Docker for the App Tier?**
+```
+  → Portability: Runs the same on any server
+  → Isolation: App runs in its own container
+  → Easy rollback: Switch image versions instantly
+  → Scalability: Scale containers without new VMs
+```
+
+---
+
+<div align="center">
+
+## 📄 Resume Tips
+
+</div>
+
+<br/>
+
+```
+💼 Resume Bullet Point (copy & customize):
+
+"Designed and deployed a production-grade 3-Tier Architecture
+ using Ansible for configuration management, Docker for
+ containerized Flask application deployment, Nginx as a reverse
+ proxy, and MySQL as the database layer — automating the full
+ infrastructure setup across 3 EC2 instances using Ansible roles
+ and playbooks."
+```
+
+**🔑 Keywords for Resume/LinkedIn:**
+```
+Ansible • Ansible Roles • Playbooks • Infrastructure as Code (IaC)
+Docker • Containerization • Nginx • Reverse Proxy • MySQL
+3-Tier Architecture • DevOps • Linux • EC2 • SSH • YAML
+Configuration Management • Agentless Automation • Flask • Python
 ```
 
 ---
